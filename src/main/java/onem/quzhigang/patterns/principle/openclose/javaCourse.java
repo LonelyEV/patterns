@@ -25,14 +25,17 @@ public class javaCourse implements ICourse {
         this.price = price;
     }
 
+    @Override
     public Integer getId() {
         return this.id;
     }
 
+    @Override
     public String getName() {
         return this.name;
     }
 
+    @Override
     public BigDecimal getPrice() {
         return this.price;
     }
